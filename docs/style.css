@@ -23,7 +23,7 @@ body {
 		rgba(219,  200,  182, 0.3)),
 		/*rgba(110 , 115 , 87, 0.5),
 		rgba(110 , 115 , 87, 0.5)),*/
-		url(images/banner.png)
+		url(images/bannersmall.png)
 		;
 	background-position: center;
 	background-size: cover;
