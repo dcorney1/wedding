@@ -146,4 +146,104 @@ nav .fa{
 		padding-left: 30px;
 
 	}
+
+	.row{
+		flex-direction: column;
+	}
+
+	.divider{
+		border-top: 6px solid rgb(110 , 115 , 87);
+	}
+}
+
+/*--stuff if we want another section--*/
+/*Footer*/
+.footer{
+	width: 100%;
+	text-align: center;
+	padding: 30px 0;
+}
+
+.footer h4{
+	margin-bottom: 25px;
+	margin-top: 20px;
+	font-weight: 600;
+}
+
+.icons .fa{
+	color: #f44336;
+	margin: 0 13px;
+	cursor: pointer;
+	padding: 18px 0;
+}
+
+.fa-heart-o{
+	color: #f44336;
+}
+
+/* travel page */
+
+.sub-header{
+	height: 50vh;
+	width: 100%;
+	background-image: linear-gradient(
+		rgba(219,  200,  182, 0.3),
+		rgba(219,  200,  182, 0.3)),
+		/*rgba(110 , 115 , 87, 0.5),
+		rgba(110 , 115 , 87, 0.5)),*/
+		url(images/travel.png)
+		;
+		background-position: center;
+		background-size: cover;
+		text-align: center;
+		position: relative;
+}
+
+.sub-header h1{
+	margin-top: 100px;
+}
+
+.travel{
+	width: 80%;
+	margin: auto;
+	padding-top: 15px;
+	padding-bottom: 50px;
+}
+
+.row
+{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.travel-col{
+	flex-basis: 46%;
+	padding: 30px 2px;
+}
+
+.travel-col img{
+	width: 100%
+}
+
+.travel-col h1{
+	padding-top: 0;
+}
+
+.travel-col p{
+	padding: 15px 0 25px;
+}
+
+.divider{
+	border-left: 6px solid rgb(110 , 115 , 87);
+}
+
+ .red-btn{
+	border: 1px solid #f44336;
+	background: transparent;
+	color: #f44336;
+}
+
+.red-btn:hover{
+	color:#fff;
 }
